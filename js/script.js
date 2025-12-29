@@ -36,44 +36,81 @@
             menu: {
                 subtitle: 'Kóstolj bele',
                 title: 'Az Étlapunk',
-                intro: 'Menünk hetente változik a szezonális alapanyagok függvényében. Íme néhány kedvenc fogásunk:',
-                dish1: {
-                    title: 'Libamáj Terrine',
-                    tag: 'Előétel',
-                    desc: 'Tokaji aszúval készült zselével, pirított brioche-sal és füstölt sóval'
+                courses: {
+                    coldStarter: 'Hideg előétel:',
+                    starter: 'Előétel:',
+                    soup: 'Leves:',
+                    main: 'Főétel:',
+                    dessert: 'Desszert:',
+                    second: 'Második fogás:'
                 },
-                dish2: {
-                    title: 'Mangalica Szűzérme',
-                    tag: 'Főétel',
-                    desc: 'Konfitált fokhagymával, erdei gombákkal és fekete szarvasgombás mártással'
+                classics: {
+                    subtitle: 'Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű pirospaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.'
                 },
-                dish3: {
-                    title: 'Somlói Reimagined',
-                    tag: 'Desszert',
-                    desc: 'A klasszikus Somlói galuska modern értelmezése, bourbon vaníliával és rum habbal'
+                forest: {
+                    subtitle: 'Fedezd fel a vadon kulináris utazását az Erdő & Mező válogatásunkkal, helyi tájakról származó, kézzel szedett alapanyagokkal. Menüink az erdő és a mező egyszerű szépségét emelik ki, egyedülálló étkezési élményt kínálva a természet változó ritmusai által inspirálva.'
                 },
-                dish4: {
-                    title: 'Balatoni Fogassüllő',
-                    tag: 'Hal',
-                    desc: 'Beurre blanc-nal, kapribogyóval és friss zöldfűszerekkel'
+                sunday: {
+                    subtitle: 'Magyarországon a vasárnapi ebéd szent családi rituálé. Több mint egy étkezés – ez az a pillanat, amikor a generációk összegyűlnek, és az otthoni főzés időtlen, megnyugtató ízei mellett újra kapcsolódnak egymáshoz. Ez a heti hagyomány a magyar vendégszeretet lényegét ragadja meg, lélekmelengető kulináris élményt kínálva, amely évtizedek óta gyakorlatilag változatlan.'
                 },
-                note: 'A teljes menüt és az aktuális borlapot érdeklődésre küldjük el.'
+                menu1: {
+                    title: 'Magyar Klasszikusok I.',
+                    price: '50 EUR/fő',
+                    starter: 'tepertőkrém, füstölt sertésszűz, májpástétom, füstölt kolbász, pirítós',
+                    soup: 'lassan főtt marhapörkölt, kovászos kenyér',
+                    main: 'autentikus tejfölös csirkepaprikás házi galuskával és kovászos uborkával',
+                    dessert: 'mákos guba vaníliakrémmel'
+                },
+                menu2: {
+                    title: 'Magyar Klasszikusok II.',
+                    price: '50 EUR/fő',
+                    starter: 'lecsó, pirítós',
+                    soup: 'halászlé, kovászos kenyér',
+                    main: 'töltött káposzta (kétféle módon), kovászos kenyér',
+                    dessert: 'édes túrógombóc pirított zsemlemorzsában, édes tejföllel'
+                },
+                menu3: {
+                    title: 'Erdő & Mező I.',
+                    price: '70 EUR/fő',
+                    starter: 'tepertőkrém, füstölt libamell, libamáj pástétom, füstölt fürjtojás, savanyított erdei gomba, pirítós',
+                    soup: 'csicsókakrémleves füstös paprikaszósszal, csicsókachips-szel és krutonnal',
+                    main: 'szarvasragu zsályával és vargányával, karamellizált cékla, meggyecet, cukorborsó, krumplipüré, savanyított vöröskáposzta',
+                    dessert: 'édes citrusos túrópalacsinta meggyszósszal és tejszínhabbal'
+                },
+                menu4: {
+                    title: 'Erdő & Mező II.',
+                    price: '70 EUR/fő',
+                    starter: 'füstölt vaddisznó karaj, diós vadgyógynövény pesto, tormakrém, savanyított bogyók',
+                    soup: 'erdei gomba krémleves fűszeres krémsajttal töltött kucsmagombával, snidlingolajos',
+                    main: 'lassan párolt vaddisznó, bodzás szósz, medvehagymás burgonya, mézzel glazírozott sárgarépa és cékla, savanyított gomba',
+                    dessert: 'bodzavirág panacotta csipkebogyó veloutéval'
+                },
+                menu5: {
+                    title: 'Hagyományos Vasárnapi Ebéd',
+                    price: '50 EUR/fő',
+                    soup: 'húsleves házi tésztával',
+                    second: 'hús, zöldség és borsodi töltött a levesből',
+                    main: 'vasárnapi sült tál: bécsi szelet, petrezselymes burgonya, uborkasaláta',
+                    dessert: 'nagymama almás pitéje vaníliakrémmel'
+                },
+                note: 'A menük tartalmazzák az üdvözlőitalt, 2 pohár bort (2x1 dl) és 1 liter ásványvizet.'
             },
             gallery: {
                 subtitle: 'Pillanatok',
                 title: 'Galéria',
                 intro: 'Betekintés a Tradish világába',
-                img1: 'Ünnepi előétel',
-                img2: 'Terrine közelről',
-                img3: 'Előétel vörösborral',
-                img4: 'Krémleves',
-                img5: 'Elegáns tálalás',
+                img1: 'Séfünk',
+                img2: 'Elegáns teríték',
+                img3: 'Asztali részletek',
+                img4: 'Közös asztal',
+                img5: 'Szalvéta részlet',
                 img6: 'Terített asztal',
-                img7: 'Séf munkában',
-                img8: 'Intim hangulat',
-                img9: 'Vacsora hangulat',
-                img10: 'Élmény az asztalnál',
-                img11: 'Leves közelről'
+                img7: 'Ünnepi előétel',
+                img8: 'Terrine közelről',
+                img9: 'Krémleves',
+                img10: 'Intim hangulat',
+                img11: 'Vacsora hangulat',
+                img12: 'Élmény az asztalnál'
             },
             contact: {
                 subtitle: 'Találj meg minket',
@@ -110,44 +147,81 @@
             menu: {
                 subtitle: 'Have a Taste',
                 title: 'Our Menu',
-                intro: 'Our menu changes weekly based on seasonal ingredients. Here are some of our favorite dishes:',
-                dish1: {
-                    title: 'Foie Gras Terrine',
-                    tag: 'Starter',
-                    desc: 'With Tokaji Aszú jelly, toasted brioche, and smoked salt'
+                courses: {
+                    coldStarter: 'Cold Starter:',
+                    starter: 'Starter:',
+                    soup: 'Soup:',
+                    main: 'Main Course:',
+                    dessert: 'Dessert:',
+                    second: '2nd Course:'
                 },
-                dish2: {
-                    title: 'Mangalica Tenderloin',
-                    tag: 'Main',
-                    desc: 'With confit garlic, wild mushrooms, and black truffle sauce'
+                classics: {
+                    subtitle: 'Classic Hungarian courses - hearty, rich flavours with the characteristic color and depth of high quality paprika spice, a variety of meats, seasonal vegetables, and thick sour cream.'
                 },
-                dish3: {
-                    title: 'Somlói Reimagined',
-                    tag: 'Dessert',
-                    desc: 'A modern interpretation of the classic Somlói sponge cake, with bourbon vanilla and rum foam'
+                forest: {
+                    subtitle: 'Experience a culinary journey through the wild with our Forest & Meadow selection, featuring hand-picked ingredients sourced from local landscapes. These menus highlight the simple beauty of forest and field, offering a unique dining experience inspired by the changing rhythms of nature.'
                 },
-                dish4: {
-                    title: 'Lake Balaton Pike-Perch',
-                    tag: 'Fish',
-                    desc: 'With beurre blanc, capers, and fresh herbs'
+                sunday: {
+                    subtitle: 'In Hungary, Sunday lunch is a sacred family ritual. More than just a meal, it is a cherished moment for generations to gather and reconnect over the timeless, comforting flavors of home-style cooking. This weekly tradition captures the essence of Hungarian hospitality, offering a soul-warming culinary experience that has remained virtually unchanged for decades.'
                 },
-                note: 'Full menu and current wine list available upon request.'
+                menu1: {
+                    title: 'Hungarian Classics I.',
+                    price: 'EUR 50/person',
+                    starter: 'crackling spread, smoked pork tenderloin, liver pâté, smoked sausage, toast',
+                    soup: 'slow cooked beef goulash, sourdough bread',
+                    main: 'authentic creamy chicken paprikash with homemade dumplings and pickled cucumber',
+                    dessert: 'poppy seed bread pudding with vanilla custard'
+                },
+                menu2: {
+                    title: 'Hungarian Classics II.',
+                    price: 'EUR 50/person',
+                    starter: 'lecsó (Hungarian ratatouille), toast',
+                    soup: 'Hungarian fisherman\'s soup, sourdough bread',
+                    main: 'stuffed cabbage (two different styles), sourdough bread',
+                    dessert: 'sweet cottage cheese dumplings coated in toasted breadcrumbs, sweetened sour cream'
+                },
+                menu3: {
+                    title: 'Forest & Meadow Delights I.',
+                    price: 'EUR 70/person',
+                    starter: 'crackling spread, smoked goose breast, goose liver pâté, boiled-smoked quail egg, pickled forest mushrooms, toast',
+                    soup: 'sunchoke cream soup with smoky paprika sauce, sunchoke chips, and croutons',
+                    main: 'venison stew with sage and porcini mushrooms, caramelized beets, sour cherry vinegar, sugar snap peas, mashed potatoes, fermented red cabbage',
+                    dessert: 'sweet and citrusy cottage cheese crêpes with sour cherry sauce and whipped cream'
+                },
+                menu4: {
+                    title: 'Forest & Meadow Delights II.',
+                    price: 'EUR 70/person',
+                    starter: 'smoked boar loin, walnut & wild herb pesto, horseradish cream, pickled berries',
+                    soup: 'forest mushroom cream soup with herbed cream cheese stuffed morel, chive oil',
+                    main: 'slow-braised wild boar, elderberry jus, wild garlic potato, honey glazed carrots and beetroot, pickled mushrooms',
+                    dessert: 'elderflower posset with rosehip velouté'
+                },
+                menu5: {
+                    title: 'Traditional Hungarian Sunday Lunch',
+                    price: 'EUR 50/person',
+                    soup: 'Hungarian meat broth, hand made pasta',
+                    second: 'meat, vegetables and Borsod-style stuffing from the broth',
+                    main: 'Sunday roast platter: wiener schnitzel, parsley potato, cucumber salad',
+                    dessert: 'granny\'s apple pie, vanilla custard'
+                },
+                note: 'The menus include a welcome drink, 2 glasses of wine (2x1 dl), and a bottle of water (1l).'
             },
             gallery: {
                 subtitle: 'Moments',
                 title: 'Gallery',
                 intro: 'A glimpse into the world of Tradish',
-                img1: 'Festive appetizer',
-                img2: 'Terrine close-up',
-                img3: 'Appetizer with red wine',
-                img4: 'Cream soup',
-                img5: 'Elegant plating',
-                img6: 'Table spread',
-                img7: 'Chef at work',
-                img8: 'Intimate ambiance',
-                img9: 'Dinner atmosphere',
-                img10: 'Experience at the table',
-                img11: 'Soup close-up'
+                img1: 'Our Chef',
+                img2: 'Elegant setting',
+                img3: 'Table details',
+                img4: 'Shared table',
+                img5: 'Napkin details',
+                img6: 'Table setting',
+                img7: 'Festive appetizer',
+                img8: 'Terrine close-up',
+                img9: 'Cream soup',
+                img10: 'Intimate ambiance',
+                img11: 'Dinner atmosphere',
+                img12: 'Experience at the table'
             },
             contact: {
                 subtitle: 'Find Us',

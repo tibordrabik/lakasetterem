@@ -669,6 +669,35 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
 }
 
+.menu__item-subtitle {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-bottom: var(--space-sm);
+}
+
+.menu__item-courses {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item-courses li {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    padding: var(--space-xs) 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.menu__item-courses li:last-child {
+    border-bottom: none;
+}
+
+.menu__item-courses li strong {
+    color: var(--color-text);
+    font-weight: 500;
+}
+
 .menu__item-description {
     font-size: 0.9375rem;
     color: var(--color-text-light);
@@ -677,10 +706,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__note {
     margin-top: var(--space-lg);
-    font-size: 0.875rem;
-    color: var(--color-text-light);
+    font-size: 1.125rem;
+    color: var(--color-text);
     text-align: center;
-    font-style: italic;
+    font-weight: 500;
 }
 
 @media (min-width: 768px) {
