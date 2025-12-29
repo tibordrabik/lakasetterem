@@ -108,83 +108,152 @@
         <!-- Menu Section -->
         <section class="menu section" id="menu">
             <div class="container">
-                <span class="section__subtitle reveal" data-i18n="menu.subtitle">Kóstolj bele</span>
-                <h2 class="section__title reveal" data-i18n="menu.title">Az Étlapunk</h2>
+                <div class="menu__header reveal">
+                    <div class="menu__ornament">&#10022;</div>
+                    <span class="section__subtitle" data-i18n="menu.subtitle">Kóstolj bele</span>
+                    <h2 class="section__title" data-i18n="menu.title">Az Étlapunk</h2>
+                    <div class="menu__ornament">&#10022;</div>
+                </div>
 
-                <div class="menu__grid">
+                <div class="menu__container">
                     <!-- Hungarian Classics I -->
-                    <article class="menu__item reveal">
-                        <div class="menu__item-header">
-                            <h3 class="menu__item-title" data-i18n="menu.menu1.title">Magyar Klasszikusok I.</h3>
-                            <span class="menu__item-tag" data-i18n="menu.menu1.price">50 EUR/fő</span>
+                    <article class="menu__card reveal">
+                        <div class="menu__card-header">
+                            <h3 class="menu__card-title" data-i18n="menu.menu1.title">Magyar Klasszikusok I.</h3>
+                            <span class="menu__card-price" data-i18n="menu.menu1.price">50 EUR/fő</span>
                         </div>
-                        <p class="menu__item-subtitle" data-i18n="menu.classics.subtitle">Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű pirospaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.</p>
-                        <ul class="menu__item-courses">
-                            <li><strong data-i18n="menu.courses.coldStarter">Hideg előétel:</strong> <span data-i18n="menu.menu1.starter">tepertőkrém, füstölt sertésszűz, májpástétom, füstölt kolbász, pirítós</span></li>
-                            <li><strong data-i18n="menu.courses.soup">Leves:</strong> <span data-i18n="menu.menu1.soup">lassan főtt marhapörkölt, kovászos kenyér</span></li>
-                            <li><strong data-i18n="menu.courses.main">Főétel:</strong> <span data-i18n="menu.menu1.main">autentikus tejfölös csirkepaprikás házi galuskával és kovászos uborkával</span></li>
-                            <li><strong data-i18n="menu.courses.dessert">Desszert:</strong> <span data-i18n="menu.menu1.dessert">mákos guba vaníliakrémmel</span></li>
-                        </ul>
+                        <div class="menu__card-divider"></div>
+                        <p class="menu__card-description" data-i18n="menu.classics.subtitle">Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű pirospaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.</p>
+                        <div class="menu__card-courses">
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.coldStarter">Hideg előétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu1.starter">tepertőkrém, füstölt sertésszűz, májpástétom, füstölt kolbász, pirítós</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.soup">Leves:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu1.soup">lassan főtt marhapörkölt, kovászos kenyér</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.main">Főétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu1.main">autentikus tejfölös csirkepaprikás házi galuskával és kovászos uborkával</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.dessert">Desszert:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu1.dessert">mákos guba vaníliakrémmel</span>
+                            </div>
+                        </div>
                     </article>
 
                     <!-- Hungarian Classics II -->
-                    <article class="menu__item reveal">
-                        <div class="menu__item-header">
-                            <h3 class="menu__item-title" data-i18n="menu.menu2.title">Magyar Klasszikusok II.</h3>
-                            <span class="menu__item-tag" data-i18n="menu.menu2.price">50 EUR/fő</span>
+                    <article class="menu__card reveal">
+                        <div class="menu__card-header">
+                            <h3 class="menu__card-title" data-i18n="menu.menu2.title">Magyar Klasszikusok II.</h3>
+                            <span class="menu__card-price" data-i18n="menu.menu2.price">50 EUR/fő</span>
                         </div>
-                        <p class="menu__item-subtitle" data-i18n="menu.classics.subtitle">Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű pirospaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.</p>
-                        <ul class="menu__item-courses">
-                            <li><strong data-i18n="menu.courses.starter">Előétel:</strong> <span data-i18n="menu.menu2.starter">lecsó, pirítós</span></li>
-                            <li><strong data-i18n="menu.courses.soup">Leves:</strong> <span data-i18n="menu.menu2.soup">halászlé, kovászos kenyér</span></li>
-                            <li><strong data-i18n="menu.courses.main">Főétel:</strong> <span data-i18n="menu.menu2.main">töltött káposzta (kétféle módon), kovászos kenyér</span></li>
-                            <li><strong data-i18n="menu.courses.dessert">Desszert:</strong> <span data-i18n="menu.menu2.dessert">édes túrógombóc pirított zsemlemorzsában, édes tejföllel</span></li>
-                        </ul>
+                        <div class="menu__card-divider"></div>
+                        <p class="menu__card-description" data-i18n="menu.classics.subtitle">Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű pirospaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.</p>
+                        <div class="menu__card-courses">
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.starter">Előétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu2.starter">lecsó, pirítós</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.soup">Leves:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu2.soup">halászlé, kovászos kenyér</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.main">Főétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu2.main">töltött káposzta (kétféle módon), kovászos kenyér</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.dessert">Desszert:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu2.dessert">édes túrógombóc pirított zsemlemorzsában, édes tejföllel</span>
+                            </div>
+                        </div>
                     </article>
 
                     <!-- Forest & Meadow I -->
-                    <article class="menu__item reveal">
-                        <div class="menu__item-header">
-                            <h3 class="menu__item-title" data-i18n="menu.menu3.title">Erdő & Mező I.</h3>
-                            <span class="menu__item-tag" data-i18n="menu.menu3.price">70 EUR/fő</span>
+                    <article class="menu__card reveal">
+                        <div class="menu__card-header">
+                            <h3 class="menu__card-title" data-i18n="menu.menu3.title">Erdő & Mező I.</h3>
+                            <span class="menu__card-price" data-i18n="menu.menu3.price">70 EUR/fő</span>
                         </div>
-                        <p class="menu__item-subtitle" data-i18n="menu.forest.subtitle">Fedezd fel a vadon kulináris utazását az Erdő & Mező válogatásunkkal, helyi tájakról származó, kézzel szedett alapanyagokkal. Menüink az erdő és a mező egyszerű szépségét emelik ki, egyedülálló étkezési élményt kínálva a természet változó ritmusai által inspirálva.</p>
-                        <ul class="menu__item-courses">
-                            <li><strong data-i18n="menu.courses.coldStarter">Hideg előétel:</strong> <span data-i18n="menu.menu3.starter">tepertőkrém, füstölt libamell, libamáj pástétom, füstölt fürjtojás, savanyított erdei gomba, pirítós</span></li>
-                            <li><strong data-i18n="menu.courses.soup">Leves:</strong> <span data-i18n="menu.menu3.soup">csicsókakrémleves füstös paprikaszósszal, csicsókachips-szel és krutonnal</span></li>
-                            <li><strong data-i18n="menu.courses.main">Főétel:</strong> <span data-i18n="menu.menu3.main">szarvasragu zsályával és vargányával, karamellizált cékla, meggyecet, cukorborsó, krumplipüré, savanyított vöröskáposzta</span></li>
-                            <li><strong data-i18n="menu.courses.dessert">Desszert:</strong> <span data-i18n="menu.menu3.dessert">édes citrusos túrópalacsinta meggyszósszal és tejszínhabbal</span></li>
-                        </ul>
+                        <div class="menu__card-divider"></div>
+                        <p class="menu__card-description" data-i18n="menu.forest.subtitle">Fedezd fel a vadon kulináris utazását az Erdő & Mező válogatásunkkal, helyi tájakról származó, kézzel szedett alapanyagokkal. Menüink az erdő és a mező egyszerű szépségét emelik ki, egyedülálló étkezési élményt kínálva a természet változó ritmusai által inspirálva.</p>
+                        <div class="menu__card-courses">
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.coldStarter">Hideg előétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu3.starter">tepertőkrém, füstölt libamell, libamáj pástétom, füstölt fürjtojás, savanyított erdei gomba, pirítós</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.soup">Leves:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu3.soup">csicsókakrémleves füstös paprikaszósszal, csicsókachips-szel és krutonnal</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.main">Főétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu3.main">szarvasragu zsályával és vargányával, karamellizált cékla, meggyecet, cukorborsó, krumplipüré, savanyított vöröskáposzta</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.dessert">Desszert:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu3.dessert">édes citrusos túrópalacsinta meggyszósszal és tejszínhabbal</span>
+                            </div>
+                        </div>
                     </article>
 
                     <!-- Forest & Meadow II -->
-                    <article class="menu__item reveal">
-                        <div class="menu__item-header">
-                            <h3 class="menu__item-title" data-i18n="menu.menu4.title">Erdő & Mező II.</h3>
-                            <span class="menu__item-tag" data-i18n="menu.menu4.price">70 EUR/fő</span>
+                    <article class="menu__card reveal">
+                        <div class="menu__card-header">
+                            <h3 class="menu__card-title" data-i18n="menu.menu4.title">Erdő & Mező II.</h3>
+                            <span class="menu__card-price" data-i18n="menu.menu4.price">70 EUR/fő</span>
                         </div>
-                        <p class="menu__item-subtitle" data-i18n="menu.forest.subtitle">Fedezd fel a vadon kulináris utazását az Erdő & Mező válogatásunkkal, helyi tájakról származó, kézzel szedett alapanyagokkal. Menüink az erdő és a mező egyszerű szépségét emelik ki, egyedülálló étkezési élményt kínálva a természet változó ritmusai által inspirálva.</p>
-                        <ul class="menu__item-courses">
-                            <li><strong data-i18n="menu.courses.coldStarter">Hideg előétel:</strong> <span data-i18n="menu.menu4.starter">füstölt vaddisznó karaj, diós vadgyógynövény pesto, tormakrém, savanyított bogyók</span></li>
-                            <li><strong data-i18n="menu.courses.soup">Leves:</strong> <span data-i18n="menu.menu4.soup">erdei gomba krémleves fűszeres krémsajttal töltött kucsmagombával, snidlingolajos</span></li>
-                            <li><strong data-i18n="menu.courses.main">Főétel:</strong> <span data-i18n="menu.menu4.main">lassan párolt vaddisznó, bodzás szósz, medvehagymás burgonya, mézzel glazírozott sárgarépa és cékla, savanyított gomba</span></li>
-                            <li><strong data-i18n="menu.courses.dessert">Desszert:</strong> <span data-i18n="menu.menu4.dessert">bodzavirág panacotta csipkebogyó veloutéval</span></li>
-                        </ul>
+                        <div class="menu__card-divider"></div>
+                        <p class="menu__card-description" data-i18n="menu.forest.subtitle">Fedezd fel a vadon kulináris utazását az Erdő & Mező válogatásunkkal, helyi tájakról származó, kézzel szedett alapanyagokkal. Menüink az erdő és a mező egyszerű szépségét emelik ki, egyedülálló étkezési élményt kínálva a természet változó ritmusai által inspirálva.</p>
+                        <div class="menu__card-courses">
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.coldStarter">Hideg előétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu4.starter">füstölt vaddisznó karaj, diós vadgyógynövény pesto, tormakrém, savanyított bogyók</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.soup">Leves:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu4.soup">erdei gomba krémleves fűszeres krémsajttal töltött kucsmagombával, snidlingolajos</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.main">Főétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu4.main">lassan párolt vaddisznó, bodzás szósz, medvehagymás burgonya, mézzel glazírozott sárgarépa és cékla, savanyított gomba</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.dessert">Desszert:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu4.dessert">bodzavirág panacotta csipkebogyó veloutéval</span>
+                            </div>
+                        </div>
                     </article>
 
                     <!-- Sunday Lunch -->
-                    <article class="menu__item reveal">
-                        <div class="menu__item-header">
-                            <h3 class="menu__item-title" data-i18n="menu.menu5.title">Hagyományos Vasárnapi Ebéd</h3>
-                            <span class="menu__item-tag" data-i18n="menu.menu5.price">50 EUR/fő</span>
+                    <article class="menu__card menu__card--featured reveal">
+                        <div class="menu__card-header">
+                            <h3 class="menu__card-title" data-i18n="menu.menu5.title">Hagyományos Vasárnapi Ebéd</h3>
+                            <span class="menu__card-price" data-i18n="menu.menu5.price">50 EUR/fő</span>
                         </div>
-                        <p class="menu__item-subtitle" data-i18n="menu.sunday.subtitle">Magyarországon a vasárnapi ebéd szent családi rituálé. Több mint egy étkezés – ez az a pillanat, amikor a generációk összegyűlnek, és az otthoni főzés időtlen, megnyugtató ízei mellett újra kapcsolódnak egymáshoz. Ez a heti hagyomány a magyar vendégszeretet lényegét ragadja meg, lélekmelengető kulináris élményt kínálva, amely évtizedek óta gyakorlatilag változatlan.</p>
-                        <ul class="menu__item-courses">
-                            <li><strong data-i18n="menu.courses.soup">Leves:</strong> <span data-i18n="menu.menu5.soup">húsleves házi tésztával</span></li>
-                            <li><strong data-i18n="menu.courses.second">Második fogás:</strong> <span data-i18n="menu.menu5.second">hús, zöldség és borsodi töltött a levesből</span></li>
-                            <li><strong data-i18n="menu.courses.main">Főétel:</strong> <span data-i18n="menu.menu5.main">vasárnapi sült tál: bécsi szelet, petrezselymes burgonya, uborkasaláta</span></li>
-                            <li><strong data-i18n="menu.courses.dessert">Desszert:</strong> <span data-i18n="menu.menu5.dessert">nagymama almás pitéje vaníliakrémmel</span></li>
-                        </ul>
+                        <div class="menu__card-divider"></div>
+                        <p class="menu__card-description" data-i18n="menu.sunday.subtitle">Magyarországon a vasárnapi ebéd szent családi rituálé. Több mint egy étkezés – ez az a pillanat, amikor a generációk összegyűlnek, és az otthoni főzés időtlen, megnyugtató ízei mellett újra kapcsolódnak egymáshoz. Ez a heti hagyomány a magyar vendégszeretet lényegét ragadja meg, lélekmelengető kulináris élményt kínálva, amely évtizedek óta gyakorlatilag változatlan.</p>
+                        <div class="menu__card-courses">
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.soup">Leves:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu5.soup">húsleves házi tésztával</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.second">Második fogás:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu5.second">hús, zöldség és borsodi töltött a levesből</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.main">Főétel:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu5.main">vasárnapi sült tál: bécsi szelet, petrezselymes burgonya, uborkasaláta</span>
+                            </div>
+                            <div class="menu__course">
+                                <span class="menu__course-name" data-i18n="menu.courses.dessert">Desszert:</span>
+                                <span class="menu__course-desc" data-i18n="menu.menu5.dessert">nagymama almás pitéje vaníliakrémmel</span>
+                            </div>
+                        </div>
                     </article>
                 </div>
 
