@@ -4,7 +4,7 @@ This file provides guidance to Claude Code when working on this project.
 
 ## Project Overview
 
-This is an elegant single-page restaurant website for an intimate 10-person apartment restaurant in Budapest's District VII (Rumbach Sebestyén utca). The site will be hosted on GitHub Pages.
+**Tradish** - "Where tradition meets the dish." An elegant single-page restaurant website for an intimate 10-person apartment restaurant in Budapest's District VII (Rumbach Sebestyén utca). The site will be hosted on GitHub Pages.
 
 ## Tech Stack
 
