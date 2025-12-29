@@ -15,6 +15,7 @@
             nav: {
                 about: 'Rólunk',
                 menu: 'Étlap',
+                gallery: 'Galéria',
                 contact: 'Kapcsolat'
             },
             hero: {
@@ -58,6 +59,17 @@
                 },
                 note: 'A teljes menüt és az aktuális borlapot érdeklődésre küldjük el.'
             },
+            gallery: {
+                subtitle: 'Pillanatok',
+                title: 'Galéria',
+                intro: 'Betekintés a Tradish világába',
+                img1: 'Elegáns tálalás',
+                img2: 'Friss alapanyagok',
+                img3: 'Szezonális ételek',
+                img4: 'Intim hangulat',
+                img5: 'Művészi desszertek',
+                img6: 'Séf munkában'
+            },
             contact: {
                 subtitle: 'Találj meg minket',
                 title: 'Kapcsolat',
@@ -72,6 +84,7 @@
             nav: {
                 about: 'About',
                 menu: 'Menu',
+                gallery: 'Gallery',
                 contact: 'Contact'
             },
             hero: {
@@ -114,6 +127,17 @@
                     desc: 'With beurre blanc, capers, and fresh herbs'
                 },
                 note: 'Full menu and current wine list available upon request.'
+            },
+            gallery: {
+                subtitle: 'Moments',
+                title: 'Gallery',
+                intro: 'A glimpse into the world of Tradish',
+                img1: 'Elegant plating',
+                img2: 'Fresh ingredients',
+                img3: 'Seasonal dishes',
+                img4: 'Intimate ambiance',
+                img5: 'Artistic desserts',
+                img6: 'Chef at work'
             },
             contact: {
                 subtitle: 'Find Us',
@@ -301,5 +325,95 @@
     }
 
     window.addEventListener('scroll', setActiveNavLink, { passive: true });
+
+    // ========================================
+    // Lightbox Gallery
+    // ========================================
+
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxPrev = document.getElementById('lightbox-prev');
+    const lightboxNext = document.getElementById('lightbox-next');
+    const galleryItems = document.querySelectorAll('.gallery__item');
+
+    let currentIndex = 0;
+    const galleryImages = [];
+
+    // Build gallery images array
+    galleryItems.forEach((item, index) => {
+        const img = item.querySelector('img');
+        const caption = item.querySelector('.gallery__caption');
+        galleryImages.push({
+            src: img.src.replace('w=600', 'w=1200').replace('w=800', 'w=1200'),
+            caption: caption ? caption.textContent : ''
+        });
+
+        item.addEventListener('click', () => {
+            openLightbox(index);
+        });
+    });
+
+    function openLightbox(index) {
+        currentIndex = index;
+        updateLightboxImage();
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function updateLightboxImage() {
+        const item = galleryItems[currentIndex];
+        const caption = item.querySelector('.gallery__caption');
+
+        lightboxImage.src = galleryImages[currentIndex].src;
+        lightboxImage.alt = caption ? caption.textContent : '';
+        lightboxCaption.textContent = caption ? caption.textContent : '';
+    }
+
+    function showPrev() {
+        currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+        updateLightboxImage();
+    }
+
+    function showNext() {
+        currentIndex = (currentIndex + 1) % galleryImages.length;
+        updateLightboxImage();
+    }
+
+    if (lightbox) {
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxPrev.addEventListener('click', showPrev);
+        lightboxNext.addEventListener('click', showNext);
+
+        // Close on background click
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('active')) return;
+
+            switch (e.key) {
+                case 'Escape':
+                    closeLightbox();
+                    break;
+                case 'ArrowLeft':
+                    showPrev();
+                    break;
+                case 'ArrowRight':
+                    showNext();
+                    break;
+            }
+        });
+    }
 
 })();

@@ -27,6 +27,7 @@
             <ul class="nav__menu" id="nav-menu">
                 <li class="nav__item"><a href="#about" class="nav__link" data-i18n="nav.about">Rólunk</a></li>
                 <li class="nav__item"><a href="#menu" class="nav__link" data-i18n="nav.menu">Étlap</a></li>
+                <li class="nav__item"><a href="#gallery" class="nav__link" data-i18n="nav.gallery">Galéria</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link" data-i18n="nav.contact">Kapcsolat</a></li>
                 <li class="nav__item nav__item--lang">
                     <div class="lang-switcher" id="lang-switcher">
@@ -143,6 +144,66 @@
                 <p class="menu__note reveal" data-i18n="menu.note">A teljes menüt és az aktuális borlapot érdeklődésre küldjük el.</p>
             </div>
         </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <span class="section__subtitle reveal" data-i18n="gallery.subtitle">Pillanatok</span>
+                <h2 class="section__title reveal" data-i18n="gallery.title">Galéria</h2>
+                <p class="gallery__intro reveal" data-i18n="gallery.intro">Betekintés a Tradish világába</p>
+
+                <div class="gallery__grid">
+                    <figure class="gallery__item gallery__item--wide reveal" data-index="0">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80" alt="Elegáns tálalás" loading="lazy">
+                        <figcaption class="gallery__caption" data-i18n="gallery.img1">Elegáns tálalás</figcaption>
+                    </figure>
+                    <figure class="gallery__item reveal" data-index="1">
+                        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80" alt="Friss alapanyagok" loading="lazy">
+                        <figcaption class="gallery__caption" data-i18n="gallery.img2">Friss alapanyagok</figcaption>
+                    </figure>
+                    <figure class="gallery__item reveal" data-index="2">
+                        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80" alt="Szezonális ételek" loading="lazy">
+                        <figcaption class="gallery__caption" data-i18n="gallery.img3">Szezonális ételek</figcaption>
+                    </figure>
+                    <figure class="gallery__item reveal" data-index="3">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Intim hangulat" loading="lazy">
+                        <figcaption class="gallery__caption" data-i18n="gallery.img4">Intim hangulat</figcaption>
+                    </figure>
+                    <figure class="gallery__item gallery__item--tall reveal" data-index="4">
+                        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Művészi desszertek" loading="lazy">
+                        <figcaption class="gallery__caption" data-i18n="gallery.img5">Művészi desszertek</figcaption>
+                    </figure>
+                    <figure class="gallery__item reveal" data-index="5">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Séf munkában" loading="lazy">
+                        <figcaption class="gallery__caption" data-i18n="gallery.img6">Séf munkában</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox__close" id="lightbox-close" aria-label="Bezárás">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Előző">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"/>
+                </svg>
+            </button>
+            <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Következő">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"/>
+                </svg>
+            </button>
+            <div class="lightbox__content">
+                <img class="lightbox__image" id="lightbox-image" src="" alt="">
+                <p class="lightbox__caption" id="lightbox-caption"></p>
+            </div>
+        </div>
 
         <!-- Contact Section -->
         <section class="contact section" id="contact">
