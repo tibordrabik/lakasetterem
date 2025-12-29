@@ -43,17 +43,6 @@ lakasetterem/
 └── Restaurant Website Development Plan.md
 ```
 
-## Build Commands
-
-No build step required - this is a static site. To preview locally:
-
-```bash
-# Python 3
-python -m http.server 8000
-
-# Then open http://localhost:8000
-```
-
 ## Key Requirements
 
 - Mobile-first responsive design
