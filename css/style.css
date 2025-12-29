@@ -360,19 +360,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: var(--space-xl) 0;
     position: relative;
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(255, 255, 255, 0.85) 0%,
-            rgba(250, 249, 246, 0.9) 100%
-        ),
-        url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&q=80') center/cover no-repeat fixed;
+    background: url('../images/leves2.jpg') center/cover no-repeat fixed;
     color: var(--color-text);
 }
 
 .hero__content {
-    max-width: 800px;
-    padding: var(--space-lg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -384,7 +376,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 350px;
     width: 100%;
     height: auto;
-    filter: drop-shadow(0 4px 30px rgba(0, 0, 0, 0.1));
+    padding: 0.25rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    backdrop-filter: blur(8px);
     animation: logoFadeIn 1.2s ease-out;
 }
 
