@@ -16,6 +16,7 @@
                 about: 'Rólunk',
                 menu: 'Étlap',
                 gallery: 'Galéria',
+                reservation: 'Foglalás',
                 contact: 'Kapcsolat'
             },
             hero: {
@@ -114,6 +115,24 @@
                 img11: 'Vacsora hangulat',
                 img12: 'Élmény az asztalnál'
             },
+            reservation: {
+                subtitle: 'Foglalás',
+                title: 'Foglalási Információk',
+                groupTitle: 'Csoportméret',
+                groupText: 'Az otthonunk intim hangulatának megőrzése érdekében 6-12 fős csoportokat fogadunk.',
+                menuTitle: 'Menüválasztás',
+                menuText: 'A legfrissebb piacról az asztalra élmény érdekében kérjük, hogy az egész csoport egyetlen menüt válasszon az alkalomra.',
+                availabilityTitle: 'Nyitvatartás',
+                availabilityText: 'Kedd, szerda, csütörtök, péntek és vasárnap fogadunk foglalásokat.',
+                timesTitle: 'Étkezési Időpontok',
+                timesIntro: 'Két időpontot kínálunk az Ön igényeihez igazodva:',
+                lunch: 'Ebéd',
+                dinner: 'Vacsora',
+                bookingTitle: 'Foglalás Menete',
+                bookingText1: 'Mivel az alapanyagokat a visszaigazolt vendégek alapján készítjük elő, kérjük, előre érdeklődjön a kívánt időpont elérhetőségéről. Foglalja le helyét közvetlenül nálunk, megadva a csoportlétszámot és a választott menüt.',
+                bookingText2: 'A legjobb élmény érdekében javasoljuk, hogy legalább egy héttel előre foglaljon, hogy séfünk be tudja szerezni a legfinomabb alapanyagokat a következő piaci napról.',
+                cta: 'Foglaljon Helyet'
+            },
             contact: {
                 subtitle: 'Találj meg minket',
                 title: 'Kapcsolat',
@@ -129,6 +148,7 @@
                 about: 'About',
                 menu: 'Menu',
                 gallery: 'Gallery',
+                reservation: 'Reservation',
                 contact: 'Contact'
             },
             hero: {
@@ -226,6 +246,24 @@
                 img10: 'Intimate ambiance',
                 img11: 'Dinner atmosphere',
                 img12: 'Experience at the table'
+            },
+            reservation: {
+                subtitle: 'Booking',
+                title: 'Reservation Details',
+                groupTitle: 'Group Size',
+                groupText: 'To maintain the intimate atmosphere of our home, we welcome groups of 6 to 12 guests.',
+                menuTitle: 'Menu Selection',
+                menuText: 'To ensure the freshest market-to-table experience, we ask that your entire group chooses one single menu for the occasion.',
+                availabilityTitle: 'Availability',
+                availabilityText: 'We are open for bookings on Tuesday, Wednesday, Thursday, Friday, and Sunday.',
+                timesTitle: 'Dining Times',
+                timesIntro: 'We offer two distinct sittings to fit your schedule:',
+                lunch: 'Lunch',
+                dinner: 'Dinner',
+                bookingTitle: 'How to Book',
+                bookingText1: 'As we prepare our ingredients based on confirmed guests, please reach out in advance to check availability for your preferred date. You can Reserve Your Spot by contacting us directly with your group size and chosen menu.',
+                bookingText2: 'For the best experience, we recommend booking at least one week in advance to allow our chef to source the finest ingredients from the upcoming market day.',
+                cta: 'Reserve Your Spot'
             },
             contact: {
                 subtitle: 'Find Us',

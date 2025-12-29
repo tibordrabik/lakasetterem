@@ -1023,6 +1023,155 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ========================================
+   Reservation Section
+   ======================================== */
+
+.reservation {
+    background: linear-gradient(180deg, #f8f6f2 0%, #f0ebe3 100%);
+}
+
+.reservation__header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.reservation .section__title::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservation__grid {
+    display: grid;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+}
+
+.reservation__card {
+    background: var(--color-white);
+    padding: var(--space-lg);
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.reservation__card-title {
+    font-size: 1.25rem;
+    color: var(--color-accent);
+    margin-bottom: var(--space-sm);
+    font-weight: 500;
+}
+
+.reservation__card-text {
+    color: var(--color-text-light);
+    line-height: 1.7;
+}
+
+.reservation__times {
+    background: var(--color-white);
+    padding: var(--space-xl);
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.reservation__times-title {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+}
+
+.reservation__times-intro {
+    color: var(--color-text-light);
+    margin-bottom: var(--space-md);
+}
+
+.reservation__times-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+}
+
+.reservation__time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.reservation__time-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+.reservation__time-value {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.reservation__booking {
+    background: var(--color-white);
+    padding: var(--space-xl);
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reservation__booking-title {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-md);
+}
+
+.reservation__booking-text {
+    color: var(--color-text-light);
+    line-height: 1.8;
+    margin-bottom: var(--space-md);
+}
+
+.reservation__booking-note {
+    color: var(--color-text-light);
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: var(--space-lg);
+    padding: var(--space-md);
+    background: rgba(201, 169, 97, 0.1);
+    border-radius: 4px;
+}
+
+.reservation__cta {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-lg);
+    background: var(--color-accent);
+    color: var(--color-white);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all var(--transition-base);
+}
+
+.reservation__cta:hover {
+    background: #a8893e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(201, 169, 97, 0.4);
+}
+
+@media (min-width: 768px) {
+    .reservation__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ========================================
    Contact Section
    ======================================== */
 
