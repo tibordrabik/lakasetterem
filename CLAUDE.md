@@ -36,8 +36,11 @@ lakasetterem/
 ├── css/
 │   └── style.css       # All styles
 ├── js/
-│   └── script.js       # Interactivity
-├── images/             # Favicon, hero images
+│   └── script.js       # Interactivity + translations
+├── images/
+│   ├── galery/         # Original high-res gallery images (1-2MB each)
+│   ├── optimized/      # Compressed images for web (45-190KB each)
+│   └── backup/         # Backup of original hero images
 ├── .gitignore
 ├── CLAUDE.md           # This file
 └── Restaurant Website Development Plan.md
@@ -56,3 +59,49 @@ lakasetterem/
 - **Location**: Rumbach Sebestyén u., Budapest (District VII)
 - **Capacity**: 10 guests
 - **Type**: Apartment-based intimate dining experience
+
+## Image Optimization
+
+Images are optimized for performance (LCP). When adding new images:
+
+1. **Add originals** to `images/galery/` (keep high-res for lightbox/print)
+2. **Generate optimized versions** using ImageMagick:
+   ```bash
+   # For gallery images (800px wide)
+   magick "images/galery/new-image.jpg" -resize 800x -quality 70 -strip "images/optimized/new-image-800.jpg"
+
+   # For hero images (multiple sizes)
+   magick "images/hero.jpg" -resize 768x -quality 70 -strip "images/optimized/hero-768.jpg"
+   magick "images/hero.jpg" -resize 1280x -quality 70 -strip "images/optimized/hero-1280.jpg"
+   magick "images/hero.jpg" -resize 1920x -quality 75 -strip "images/optimized/hero-1920.jpg"
+   ```
+3. **Update references** in `index.html` to use `images/optimized/` paths
+4. **Hero responsive loading** is handled in `css/style.css` with media queries
+
+## Translation System (i18n)
+
+The site supports Hungarian (default) and English. Translations are managed in `js/script.js`.
+
+### How it works:
+- HTML elements use `data-i18n` attributes: `<span data-i18n="nav.menu">Menü</span>`
+- Hungarian text is the default in HTML
+- Translations are stored in `translations` object in `script.js`
+- Language preference saved to `localStorage`
+- Language toggle button in navigation
+
+### When adding new translatable content:
+1. Add Hungarian text directly in HTML with `data-i18n` attribute
+2. Add both HU and EN translations to `js/script.js`:
+   ```javascript
+   hu: {
+       section: {
+           newKey: 'Magyar szöveg'
+       }
+   },
+   en: {
+       section: {
+           newKey: 'English text'
+       }
+   }
+   ```
+3. Keep translation keys consistent between HU and EN objects
