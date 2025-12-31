@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tradish - Where tradition meets the dish. Intimate 10-person dining experience in Budapest's District VII.">
-    <title>Tradish | Traditional Flavors, Modern Experience</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Tradish | Lakás Étterem Budapest - Autentikus Magyar Konyha</title>
+    <meta name="title" content="Tradish | Lakás Étterem Budapest - Autentikus Magyar Konyha">
+    <meta name="description" content="Tradish lakás étterem Budapest VII. kerületében. Intim, 6-12 fős vacsorák autentikus magyar ételekkel. Foglaljon asztalt egyedi gasztronómiai élményért!">
+    <meta name="keywords" content="lakás étterem, Budapest, magyar konyha, fine dining, privát vacsora, VII. kerület, Rumbach Sebestyén utca, gasztronómia">
+    <meta name="author" content="Tradish">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tradish.hu/">
+
+    <!-- Hreflang for multilingual -->
+    <link rel="alternate" hreflang="hu" href="https://tradish.hu/">
+    <link rel="alternate" hreflang="en" href="https://tradish.hu/?lang=en">
+    <link rel="alternate" hreflang="x-default" href="https://tradish.hu/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant">
+    <meta property="og:url" content="https://tradish.hu/">
+    <meta property="og:title" content="Tradish | Lakás Étterem Budapest">
+    <meta property="og:description" content="Intim lakás étterem Budapest szívében. Autentikus magyar konyha modern csavarral, 6-12 fős csoportoknak.">
+    <meta property="og:image" content="https://tradish.hu/images/galery/2025_10_30_HomeRestaurant_351.jpg">
+    <meta property="og:locale" content="hu_HU">
+    <meta property="og:locale:alternate" content="en_GB">
+    <meta property="og:site_name" content="Tradish">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://tradish.hu/">
+    <meta name="twitter:title" content="Tradish | Lakás Étterem Budapest">
+    <meta name="twitter:description" content="Intim lakás étterem Budapest szívében. Autentikus magyar konyha modern csavarral, 6-12 fős csoportoknak.">
+    <meta name="twitter:image" content="https://tradish.hu/images/galery/2025_10_30_HomeRestaurant_351.jpg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,10 +43,94 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="logo-transparent.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo-transparent.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo-transparent.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo-transparent.png">
+    <meta name="theme-color" content="#c9a961">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data - Restaurant Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Tradish",
+        "alternateName": "Tradish Lakás Étterem",
+        "description": "Intim lakás étterem Budapest VII. kerületében, autentikus magyar konyhával és modern gasztronómiai élménnyel.",
+        "url": "https://tradish.hu",
+        "telephone": "+36301234567",
+        "email": "hello@tradish.hu",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rumbach Sebestyén utca 15/A",
+            "addressLocality": "Budapest",
+            "postalCode": "1075",
+            "addressRegion": "VII. kerület",
+            "addressCountry": "HU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.4975,
+            "longitude": 19.0575
+        },
+        "image": [
+            "https://tradish.hu/images/galery/2025_10_30_HomeRestaurant_351.jpg",
+            "https://tradish.hu/images/galery/2025_10_30_HomeRestaurant_193.jpg",
+            "https://tradish.hu/images/sheff2.jpg"
+        ],
+        "servesCuisine": ["Hungarian", "European", "Traditional"],
+        "priceRange": "€€€",
+        "currenciesAccepted": "EUR, HUF",
+        "paymentAccepted": "Cash, Credit Card",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+                "opens": "13:00",
+                "closes": "14:30"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+                "opens": "18:30",
+                "closes": "21:00"
+            }
+        ],
+        "acceptsReservations": "True",
+        "menu": "https://tradish.hu/#menu",
+        "hasMenu": {
+            "@type": "Menu",
+            "name": "Tradish Menük",
+            "hasMenuSection": [
+                {
+                    "@type": "MenuSection",
+                    "name": "Magyar Klasszikusok",
+                    "description": "Klasszikus magyar fogások tartalmas, gazdag ízekkel"
+                },
+                {
+                    "@type": "MenuSection",
+                    "name": "Erdő & Mező",
+                    "description": "Helyi tájakról származó, kézzel szedett alapanyagokkal készült fogások"
+                },
+                {
+                    "@type": "MenuSection",
+                    "name": "Vasárnapi Ebéd",
+                    "description": "Hagyományos magyar vasárnapi ebéd"
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "25"
+        },
+        "sameAs": [
+            "https://www.instagram.com/tradish_budapest/"
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -65,6 +180,7 @@
         <section class="hero" id="hero">
             <div class="hero__content container">
                 <img src="logo-transparent.png" alt="Tradish" class="hero__logo reveal">
+                <h1 class="hero__title visually-hidden">Tradish - Lakás Étterem Budapest</h1>
                 <p class="hero__description reveal" data-i18n="hero.description">Ahol a hagyomány és az ízek találkoznak. Tíz vendég. Egy asztal. Felejthetetlen élmény.</p>
             </div>
             <div class="hero__scroll">
@@ -417,6 +533,7 @@
                     <div class="contact__map reveal">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.5!2d19.0575!3d47.4975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc402a04eee7%3A0x6369144ae987cfee!2sRumbach%20Sebesty%C3%A9n%20u.%2015%2FA%2C%20Budapest%2C%201075!5e0!3m2!1sen!2shu!4v1703858400000!5m2!1sen!2shu"
+                            title="Tradish étterem helyszíne - Rumbach Sebestyén utca 15/A, Budapest"
                             width="100%"
                             height="400"
                             style="border:0;"
