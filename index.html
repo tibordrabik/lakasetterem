@@ -38,12 +38,14 @@
     <meta name="twitter:image" content="https://tradish.hu/images/galery/2025_10_30_HomeRestaurant_351.jpg">
 
     <!-- Preload critical assets -->
-    <link rel="preload" as="image" href="images/optimized/leves2-768.jpg" fetchpriority="high">
+    <link rel="preload" as="image" href="images/optimized/leves2-768.webp" type="image/webp" fetchpriority="high">
 
-    <!-- Fonts -->
+    <!-- Fonts (non-blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet"></noscript>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="logo-transparent.png">
@@ -182,7 +184,10 @@
         <!-- Hero Section -->
         <section class="hero" id="hero">
             <div class="hero__content container">
-                <img src="logo-transparent.png" alt="Tradish" class="hero__logo reveal">
+                <picture>
+                    <source srcset="images/optimized/logo-684.webp" type="image/webp">
+                    <img src="images/optimized/logo-684.png" alt="Tradish" class="hero__logo reveal">
+                </picture>
                 <h1 class="hero__title visually-hidden">Tradish - Lakás Étterem Budapest</h1>
                 <p class="hero__description reveal" data-i18n="hero.description">Ahol a hagyomány és az ízek találkoznak. Tíz vendég. Egy asztal. Felejthetetlen élmény.</p>
             </div>
@@ -197,7 +202,10 @@
             <div class="container">
                 <div class="about__grid">
                     <div class="about__image reveal">
-                        <img src="images/sheff2.jpg" data-i18n-alt="about.imageAlt" alt="Séf munka közben" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/sheff2-933.webp" type="image/webp">
+                            <img src="images/optimized/sheff2-933.jpg" data-i18n-alt="about.imageAlt" alt="Séf munka közben" loading="lazy">
+                        </picture>
                     </div>
                     <div class="about__content">
                         <div class="about__text">
@@ -392,51 +400,87 @@
 
                 <div class="gallery__grid">
                     <figure class="gallery__item gallery__item--wide reveal" data-index="0">
-                        <img src="images/optimized/2025_10_30_HomeRestaurant_193-800.jpg" alt="Séfünk" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_10_30_HomeRestaurant_193-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_10_30_HomeRestaurant_193-800.jpg" alt="Séfünk" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img1">Séfünk</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="1">
-                        <img src="images/optimized/2025_10_30_HomeRestaurant_216-800.jpg" alt="Elegáns teríték" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_10_30_HomeRestaurant_216-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_10_30_HomeRestaurant_216-800.jpg" alt="Elegáns teríték" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img2">Elegáns teríték</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="2">
-                        <img src="images/optimized/2025_10_30_HomeRestaurant_218-800.jpg" alt="Asztali részletek" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_10_30_HomeRestaurant_218-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_10_30_HomeRestaurant_218-800.jpg" alt="Asztali részletek" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img3">Asztali részletek</figcaption>
                     </figure>
                     <figure class="gallery__item gallery__item--wide reveal" data-index="3">
-                        <img src="images/optimized/2025_10_30_HomeRestaurant_351-800.jpg" alt="Közös asztal" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_10_30_HomeRestaurant_351-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_10_30_HomeRestaurant_351-800.jpg" alt="Közös asztal" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img4">Közös asztal</figcaption>
                     </figure>
                     <figure class="gallery__item gallery__item--tall reveal" data-index="4">
-                        <img src="images/optimized/2025_10_30_HomeRestaurant_413-800.jpg" alt="Szalvéta részlet" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_10_30_HomeRestaurant_413-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_10_30_HomeRestaurant_413-800.jpg" alt="Szalvéta részlet" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img5">Szalvéta részlet</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="5">
-                        <img src="images/optimized/2025_10_30_HomeRestaurant_416-800.jpg" alt="Terített asztal" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_10_30_HomeRestaurant_416-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_10_30_HomeRestaurant_416-800.jpg" alt="Terített asztal" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img6">Terített asztal</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="6">
-                        <img src="images/optimized/2025_12_16_HomeRestaurant_008-800.jpg" alt="Ünnepi előétel" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_12_16_HomeRestaurant_008-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_12_16_HomeRestaurant_008-800.jpg" alt="Ünnepi előétel" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img7">Ünnepi előétel</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="7">
-                        <img src="images/optimized/2025_12_16_HomeRestaurant_010-800.jpg" alt="Terrine közelről" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_12_16_HomeRestaurant_010-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_12_16_HomeRestaurant_010-800.jpg" alt="Terrine közelről" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img8">Terrine közelről</figcaption>
                     </figure>
                     <figure class="gallery__item gallery__item--tall reveal" data-index="8">
-                        <img src="images/optimized/2025_12_16_HomeRestaurant_025-800.jpg" alt="Krémleves" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_12_16_HomeRestaurant_025-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_12_16_HomeRestaurant_025-800.jpg" alt="Krémleves" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img9">Krémleves</figcaption>
                     </figure>
                     <figure class="gallery__item gallery__item--tall reveal" data-index="9">
-                        <img src="images/optimized/2025_12_16_HomeRestaurant_062-800.jpg" alt="Intim hangulat" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_12_16_HomeRestaurant_062-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_12_16_HomeRestaurant_062-800.jpg" alt="Intim hangulat" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img10">Intim hangulat</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="10">
-                        <img src="images/optimized/2025_12_16_HomeRestaurant_065-800.jpg" alt="Vacsora hangulat" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_12_16_HomeRestaurant_065-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_12_16_HomeRestaurant_065-800.jpg" alt="Vacsora hangulat" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img11">Vacsora hangulat</figcaption>
                     </figure>
                     <figure class="gallery__item reveal" data-index="11">
-                        <img src="images/optimized/2025_12_16_HomeRestaurant_068-800.jpg" alt="Élmény az asztalnál" loading="lazy">
+                        <picture>
+                            <source srcset="images/optimized/2025_12_16_HomeRestaurant_068-800.webp" type="image/webp">
+                            <img src="images/optimized/2025_12_16_HomeRestaurant_068-800.jpg" alt="Élmény az asztalnál" loading="lazy">
+                        </picture>
                         <figcaption class="gallery__caption" data-i18n="gallery.img12">Élmény az asztalnál</figcaption>
                     </figure>
                 </div>
