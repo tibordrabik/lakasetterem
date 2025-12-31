@@ -20,7 +20,6 @@
                 contact: 'Kapcsolat'
             },
             hero: {
-                subtitle: 'Budapest VII. kerület',
                 description: 'Ahol a hagyomány és az ízek találkoznak. Tíz vendég. Egy asztal. Felejthetetlen élmény.',
                 scroll: 'Görgess'
             },
@@ -136,8 +135,7 @@
             contact: {
                 subtitle: 'Találj meg minket',
                 title: 'Kapcsolat',
-                district: 'VII. kerület',
-                imageAlt: 'Elegáns éttermi környezet'
+                district: 'VII. kerület'
             },
             footer: {
                 copyright: '© 2024 Tradish. Minden jog fenntartva.'
@@ -152,7 +150,6 @@
                 contact: 'Contact'
             },
             hero: {
-                subtitle: 'Budapest District VII',
                 description: 'Where tradition meets the dish. Ten guests. One table. An unforgettable experience.',
                 scroll: 'Scroll'
             },
@@ -268,8 +265,7 @@
             contact: {
                 subtitle: 'Find Us',
                 title: 'Contact',
-                district: 'District VII',
-                imageAlt: 'Elegant restaurant ambiance'
+                district: 'District VII'
             },
             footer: {
                 copyright: '© 2024 Tradish. All rights reserved.'
