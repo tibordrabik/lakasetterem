@@ -26,10 +26,10 @@
             about: {
                 subtitle: 'A mi történetünk',
                 title: 'Bemutatkozás',
-                text1: 'Üdvözöljük a Tradish lakáséttermében, ahol az otthon melege találkozik a kifinomult, mégis lélekmelengető gasztronómiai élménnyel. Koncepciónk arra hív, hogy hagyja maga mögött a hagyományos éttermek formalitását, és lépjen be egy gondosan kialakított lakótérbe, amelyet a kapcsolódás és a kulináris felfedezés jegyében terveztünk. Autentikus magyar comfort food-ra specializálódtunk, stílusos, modern csavarral tálalva. Minden este konyhaművészetünk élénk örökségét ünnepeljük a legfrissebb, közvetlenül a termelőktől származó alapanyagokkal.',
-                text2: 'Az én utam gyermekként kezdődött, amikor nagymamám mellett főzve tanultam meg az ízek titkait és mások megvendégelésének örömét. A főzés szeretete végül arra vezetett, hogy éveket töltsek helyi termelői piacokon séfként, ahol elsajátítottam a művészetét annak, hogyan építsek menüket az adott évszak legjobb terményeiből.',
-                text3: 'Ma a munkám ezeknek a gyökereknek az emléke, a hagyományos magyar ételekre összpontosítva, amelyeket stílusos, kortárs csavarral szeretek tálalni. Hiszem, hogy az étel akkor a legértékesebb, ha pontosan tudjuk, honnan származik, ezért ma is közvetlenül azoktól a termelőktől szerzem be az alapanyagokat, akikkel partnerkapcsolatot építettem ki.',
-                text4: 'Nyugodt, közösségi légkört kínálok, ahol az asztal a kapcsolódás és a mesélés helye. Minden részlet, a hangulatos gyertyafénytől a modern tálalásig, arra szolgál, hogy tisztelt barátnak érezze magát. Meghívom, hogy csatlakozzon hozzám, és tapasztalja meg az igazi farm-to-table utazást. Várom Önt és barátait, hogy megosszunk egy étkezést, amely generációkat köt össze.',
+                text1: 'Köszöntünk a Tradish lakásétteremben, ahol otthonos környezetben, lélekmelengető gasztronómiai élményekkel várunk! Ha vágysz a hazai ízekre, de elkerülnéd a merev éttermi hangulatot, nálunk egy ízlésesen kialakított, mégis barátságos környezetben élvezheted a kulináris kalandokat.',
+                text2: 'Konyhánk a magyar gasztronómia öröksége előtt tiszteleg: az autentikus ízekhez, hozzávalókhoz ragaszkodva stílusos tálalásban álmodjuk újra hagyományos ételeinket. Elkötelezettek vagyunk a hazai kistermelők támogatása mellett, így közvetlenül a termelőktől származó alapanyagokkal dolgozunk.',
+                text3: 'A főzés iránti szenvedélyem még gyermekként kezdődött nagymamám konyhájában, ahol az ízekről, mások vendégelátásának örömeiről tanultam. Hosszú út vezetett idáig, de végül megérkeztem oda, amiben igazán jól érzem magam. Szakácsként dolgozom évek óta, és a kistermelői piacok világából érkezve pontosan tudom, miből születik az igazi ízélmény. Itt ismerhettem meg azokat a magyar termelőket, akik szívvel-lélekkel készítik portékájukat. Lakáséttermünkben a tőlük származó, friss és egészséges alapanyagokat felhasználva készülnek ételeink, figyelembe véve a szezonális kínálatot, és különlegességeket.',
+                text4: 'Tarts velünk ezen a hamisítatlan \'farm-to-table\' utazáson, hogy egy közös étkezéssel együtt ünnepeljük az ízeket, amelyek generációkat kötnek össze.',
                 guests: 'vendég esténként',
                 courses: 'fogásos menü',
                 table: 'közös asztal',
@@ -37,7 +37,7 @@
             },
             menu: {
                 subtitle: 'Kóstolj bele',
-                title: 'Az Étlapunk',
+                title: 'Étlapunk',
                 courses: {
                     coldStarter: 'Hideg előétel:',
                     starter: 'Előétel:',
@@ -47,10 +47,10 @@
                     second: 'Második fogás:'
                 },
                 classics: {
-                    subtitle: 'Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű pirospaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.'
+                    subtitle: 'Klasszikus magyar fogások – tartalmas, gazdag ízek a kiváló minőségű fűszerpaprika jellegzetes színével és mélységével, változatos húsokkal, szezonális zöldségekkel és sűrű tejföllel.'
                 },
                 forest: {
-                    subtitle: 'Fedezd fel a vadon kulináris utazását az Erdő & Mező válogatásunkkal, helyi tájakról származó, kézzel szedett alapanyagokkal. Menüink az erdő és a mező egyszerű szépségét emelik ki, egyedülálló étkezési élményt kínálva a természet változó ritmusai által inspirálva.'
+                    subtitle: 'Erdők-Mezők Kincsei menüinkben a vadonból származó, kézzel válogatott természetes alapanyagok tiszta szépségét emeljük ki. Egyedülálló gasztronómiai utazásra hívunk, amelyet a természet örök változása és az évszakok ritmusa inspirál.'
                 },
                 sunday: {
                     subtitle: 'Magyarországon a vasárnapi ebéd szent családi rituálé. Több mint egy étkezés – ez az a pillanat, amikor a generációk összegyűlnek, és az otthoni főzés időtlen, megnyugtató ízei mellett újra kapcsolódnak egymáshoz. Ez a heti hagyomány a magyar vendégszeretet lényegét ragadja meg, lélekmelengető kulináris élményt kínálva, amely évtizedek óta gyakorlatilag változatlan.'
@@ -59,43 +59,43 @@
                     title: 'Magyar Klasszikusok I.',
                     price: '50 EUR/fő',
                     starter: 'tepertőkrém, füstölt sertésszűz, májpástétom, füstölt kolbász, pirítós',
-                    soup: 'lassan főtt marhapörkölt, kovászos kenyér',
-                    main: 'autentikus tejfölös csirkepaprikás házi galuskával és kovászos uborkával',
-                    dessert: 'mákos guba vaníliakrémmel'
+                    soup: 'marhagulyás omlós hússal, kovászos kenyér',
+                    main: 'tejfölös csirkepaprikás házi galuskával és kovászos uborkával',
+                    dessert: 'mákos guba vaníliasodóval'
                 },
                 menu2: {
                     title: 'Magyar Klasszikusok II.',
                     price: '50 EUR/fő',
-                    starter: 'lecsó, pirítós',
-                    soup: 'halászlé, kovászos kenyér',
+                    starter: 'lecsó variációk, pirítós',
+                    soup: 'halászlé szürkeharcsa filével, kovászos kenyér',
                     main: 'töltött káposzta (kétféle módon), kovászos kenyér',
-                    dessert: 'édes túrógombóc pirított zsemlemorzsában, édes tejföllel'
+                    dessert: 'túrógombóc pirított zsemlemorzsában, édes tejföllel'
                 },
                 menu3: {
-                    title: 'Erdő & Mező I.',
+                    title: 'Erdők-Mezők Kincsei I.',
                     price: '70 EUR/fő',
                     starter: 'tepertőkrém, füstölt libamell, libamáj pástétom, füstölt fürjtojás, savanyított erdei gomba, pirítós',
                     soup: 'csicsókakrémleves füstös paprikaszósszal, csicsókachips-szel és krutonnal',
-                    main: 'szarvasragu zsályával és vargányával, karamellizált cékla, meggyecet, cukorborsó, krumplipüré, savanyított vöröskáposzta',
-                    dessert: 'édes citrusos túrópalacsinta meggyszósszal és tejszínhabbal'
+                    main: 'szarvasragu zsályával és vargányával, karamellizált cékla, meggyecet, cukorborsó, burgonyapüré, savanyított vöröskáposzta',
+                    dessert: 'könnyű, rumos gesztenyemousse, ropogós pirított fenyőmag, fanyar csipkebogyó-zselé, étcsokoládé morzsa'
                 },
                 menu4: {
-                    title: 'Erdő & Mező II.',
+                    title: 'Erdők-Mezők Kincsei II.',
                     price: '70 EUR/fő',
-                    starter: 'füstölt vaddisznó karaj, diós vadgyógynövény pesto, tormakrém, savanyított bogyók',
-                    soup: 'erdei gomba krémleves fűszeres krémsajttal töltött kucsmagombával, snidlingolajos',
+                    starter: 'sült cékla szeletek (sárga és vörös), morzsolt krémes kecskesajt, pirított napraforgó magos-zöldfűszeres pesto, erdeibogyós mártás',
+                    soup: 'erdei gomba krémleves fűszeres krémsajttal töltött kucsmagombával, snidlingolaj',
                     main: 'lassan párolt vaddisznó, bodzás szósz, medvehagymás burgonya, mézzel glazírozott sárgarépa és cékla, savanyított gomba',
-                    dessert: 'bodzavirág panacotta csipkebogyó veloutéval'
+                    dessert: 'bodzavirág posset csipkebogyó veloutéval'
                 },
                 menu5: {
                     title: 'Hagyományos Vasárnapi Ebéd',
                     price: '50 EUR/fő',
                     soup: 'húsleves házi tésztával',
-                    second: 'hús, zöldség és borsodi töltött a levesből',
-                    main: 'vasárnapi sült tál: bécsi szelet, petrezselymes burgonya, uborkasaláta',
+                    second: 'hús, zöldség és borsodi töltike a levesből',
+                    main: 'vasárnapi sült tál: rántott hús, petrezselymes burgonya, uborkasaláta',
                     dessert: 'nagymama almás pitéje vaníliakrémmel'
                 },
-                note: 'A menük tartalmazzák az üdvözlőitalt, 2 pohár bort (2x1 dl) és 1 liter ásványvizet.'
+                note: 'A menü tartalmaz egy welcome pálinkát, 2 pohár bort (2x1 dl) és 1 liter ásványvizet.'
             },
             gallery: {
                 subtitle: 'Pillanatok',
@@ -120,7 +120,7 @@
                 groupTitle: 'Csoportméret',
                 groupText: 'Az otthonunk intim hangulatának megőrzése érdekében 6-12 fős csoportokat fogadunk.',
                 menuTitle: 'Menüválasztás',
-                menuText: 'A legfrissebb piacról az asztalra élmény érdekében kérjük, hogy az egész csoport egyetlen menüt válasszon az alkalomra.',
+                menuText: 'A legfrissebb "piacról az asztalra" élmény érdekében kérjük, hogy egy alkalomra az egész csoport egyetlen menüt válasszon.',
                 availabilityTitle: 'Nyitvatartás',
                 availabilityText: 'Kedd, szerda, csütörtök, péntek és vasárnap fogadunk foglalásokat.',
                 timesTitle: 'Étkezési Időpontok',
@@ -128,8 +128,8 @@
                 lunch: 'Ebéd',
                 dinner: 'Vacsora',
                 bookingTitle: 'Foglalás Menete',
-                bookingText1: 'Mivel az alapanyagokat a visszaigazolt vendégek alapján készítjük elő, kérjük, előre érdeklődjön a kívánt időpont elérhetőségéről. Foglalja le helyét közvetlenül nálunk, megadva a csoportlétszámot és a választott menüt.',
-                bookingText2: 'A legjobb élmény érdekében javasoljuk, hogy legalább egy héttel előre foglaljon, hogy séfünk be tudja szerezni a legfinomabb alapanyagokat a következő piaci napról.',
+                bookingText1: 'Mivel minden fogást a nálunk asztalt foglaló vendégek számához igazítva, frissen készítünk el, kérjük, érdeklődj előre a szabad időpontokról. Kérjük, foglalásnál add meg a választott időpontot, a vendégek számát és a preferált menüsort.',
+                bookingText2: 'Javasoljuk, hogy legalább egy héttel az érkezésed előtt keress meg minket: ez garantálja, hogy séfünk a legfrissebb, legszebb portékákat válogathassa össze a helyi termelőktől.',
                 cta: 'Foglaljon Helyet'
             },
             contact: {
@@ -156,7 +156,7 @@
             about: {
                 subtitle: 'Our Story',
                 title: 'Introduction',
-                text1: 'Welcome to Tradish apartment restaurant, where the warmth of a private home meets a refined yet soulful dining experience. Our concept invites you to step away from the formality of traditional eateries and into a curated living space designed for connection and culinary discovery. We specialize in authentic Hungarian comfort food presented with a stylish, modern flair. Each evening, we celebrate the vibrant heritage of our cuisine by using the freshest ingredients sourced directly from the growers.',
+                text1: 'Welcome to Tradish apartment restaurant, where the warmth of a private home meets a refined yet soulful dining experience. Our concept invites you to step away from the formality of traditional eateries into a curated living space designed for connection and culinary discovery. We specialize in authentic Hungarian comfort food presented with a stylish, modern flair. Each evening, we celebrate the vibrant heritage of our cuisine by using the freshest ingredients sourced directly from the growers.',
                 text2: 'My journey began as a child, learning the secrets of flavors and the joy of feeding others while cooking alongside my grandmother. The love of cooking eventually led me to spend years at local farmers\' markets as a chef, where I mastered the art of building menus around the very best of each season\'s harvest.',
                 text3: 'Today, my work is a tribute to those roots, focusing on traditional Hungarian meals that I love to present with a stylish, contemporary flair. I believe that food is most meaningful when you know exactly where it comes from, which is why I still source my ingredients directly from the growers I\'ve partnered with.',
                 text4: 'I offer a relaxed, communal atmosphere where the table is a place for connection and storytelling. Every detail, from the ambient candlelight to the modern plating, is designed to make you feel like an honored friend. I invite you to join me and experience a true farm-to-table journey. I look forward to welcoming you and your friends sharing a meal that bridges generations.',
@@ -180,7 +180,7 @@
                     subtitle: 'Classic Hungarian courses - hearty, rich flavours with the characteristic color and depth of high quality paprika spice, a variety of meats, seasonal vegetables, and thick sour cream.'
                 },
                 forest: {
-                    subtitle: 'Experience a culinary journey through the wild with our Forest & Meadow selection, featuring hand-picked ingredients sourced from local landscapes. These menus highlight the simple beauty of forest and field, offering a unique dining experience inspired by the changing rhythms of nature.'
+                    subtitle: 'Our Forest & Meadow Treasures menus highlight the pure beauty of hand-picked natural ingredients from the wild. We invite you on a unique gastronomic journey inspired by the eternal changes of nature and the rhythm of the seasons.'
                 },
                 sunday: {
                     subtitle: 'In Hungary, Sunday lunch is a sacred family ritual. More than just a meal, it is a cherished moment for generations to gather and reconnect over the timeless, comforting flavors of home-style cooking. This weekly tradition captures the essence of Hungarian hospitality, offering a soul-warming culinary experience that has remained virtually unchanged for decades.'
@@ -189,30 +189,31 @@
                     title: 'Hungarian Classics I.',
                     price: 'EUR 50/person',
                     starter: 'crackling spread, smoked pork tenderloin, liver pâté, smoked sausage, toast',
-                    soup: 'slow cooked beef goulash, sourdough bread',
-                    main: 'authentic creamy chicken paprikash with homemade dumplings and pickled cucumber',
+                    soup: 'beef goulash with tender meat, sourdough bread',
+                    main: 'creamy chicken paprikash with homemade dumplings and pickled cucumber',
                     dessert: 'poppy seed bread pudding with vanilla custard'
                 },
                 menu2: {
                     title: 'Hungarian Classics II.',
                     price: 'EUR 50/person',
-                    starter: 'lecsó (Hungarian ratatouille), toast',
-                    soup: 'Hungarian fisherman\'s soup, sourdough bread',
+                    starter: 'lecsó variations (Hungarian ratatouille), toast',
+                    soup: 'Hungarian fisherman\'s soup with wels catfish fillet, sourdough bread',
                     main: 'stuffed cabbage (two different styles), sourdough bread',
-                    dessert: 'sweet cottage cheese dumplings coated in toasted breadcrumbs, sweetened sour cream'
+                    dessert: 'cottage cheese dumplings coated in toasted breadcrumbs, sweetened sour cream'
                 },
                 menu3: {
-                    title: 'Forest & Meadow Delights I.',
+                    title: 'Forest & Meadow Treasures I.',
                     price: 'EUR 70/person',
                     starter: 'crackling spread, smoked goose breast, goose liver pâté, boiled-smoked quail egg, pickled forest mushrooms, toast',
                     soup: 'sunchoke cream soup with smoky paprika sauce, sunchoke chips, and croutons',
                     main: 'venison stew with sage and porcini mushrooms, caramelized beets, sour cherry vinegar, sugar snap peas, mashed potatoes, fermented red cabbage',
-                    dessert: 'sweet and citrusy cottage cheese crêpes with sour cherry sauce and whipped cream'
+                    dessert: 'light rum-infused chestnut mousse, crunchy toasted pine nut, rosehip jelly, and dark chocolate soil'
                 },
                 menu4: {
-                    title: 'Forest & Meadow Delights II.',
+                    title: 'Forest & Meadow Treasures II.',
                     price: 'EUR 70/person',
-                    starter: 'smoked boar loin, walnut & wild herb pesto, horseradish cream, pickled berries',
+                    coldStarter: 'smoked wild boar, walnut herb pesto, horseradish cream, pickled mushrooms, toast',
+                    starter: 'roasted beetroot slices (golden and red), crumbled creamy goat cheese, toasted sunflower seed and herb pesto, forest berry coulis',
                     soup: 'forest mushroom cream soup with herbed cream cheese stuffed morel, chive oil',
                     main: 'slow-braised wild boar, elderberry jus, wild garlic potato, honey glazed carrots and beetroot, pickled mushrooms',
                     dessert: 'elderflower posset with rosehip velouté'
@@ -222,10 +223,10 @@
                     price: 'EUR 50/person',
                     soup: 'Hungarian meat broth, hand made pasta',
                     second: 'meat, vegetables and Borsod-style stuffing from the broth',
-                    main: 'Sunday roast platter: wiener schnitzel, parsley potato, cucumber salad',
+                    main: 'Sunday roast platter: golden-brown breaded chicken and pork cutlet, parsley potato, Hungarian cucumber salad',
                     dessert: 'granny\'s apple pie, vanilla custard'
                 },
-                note: 'The menus include a welcome drink, 2 glasses of wine (2x1 dl), and a bottle of water (1l).'
+                note: 'The menu includes a welcome drink (Palinka), 2 glasses of wine (2x1 dl), and a bottle of water (1l).'
             },
             gallery: {
                 subtitle: 'Moments',
