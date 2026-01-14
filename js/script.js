@@ -153,7 +153,7 @@
                 district: 'VII. kerület'
             },
             footer: {
-                copyright: '© 2024 Tradish. Minden jog fenntartva.'
+                copyright: '© 2025 Tradish. Minden jog fenntartva.'
             }
         },
         en: {
@@ -299,7 +299,7 @@
                 district: 'District VII'
             },
             footer: {
-                copyright: '© 2024 Tradish. All rights reserved.'
+                copyright: '© 2025 Tradish. All rights reserved.'
             }
         }
     };
