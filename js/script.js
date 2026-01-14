@@ -30,7 +30,7 @@
                 text2: 'Konyhánk a magyar gasztronómia öröksége előtt tiszteleg: az autentikus ízekhez, hozzávalókhoz ragaszkodva stílusos tálalásban álmodjuk újra hagyományos ételeinket. Elkötelezettek vagyunk a hazai kistermelők támogatása mellett, így közvetlenül a termelőktől származó alapanyagokkal dolgozunk.',
                 text3: 'A főzés iránti szenvedélyem még gyermekként kezdődött nagymamám konyhájában, ahol az ízekről, mások vendégelátásának örömeiről tanultam. Hosszú út vezetett idáig, de végül megérkeztem oda, amiben igazán jól érzem magam. Szakácsként dolgozom évek óta, és a kistermelői piacok világából érkezve pontosan tudom, miből születik az igazi ízélmény. Itt ismerhettem meg azokat a magyar termelőket, akik szívvel-lélekkel készítik portékájukat. Lakáséttermünkben a tőlük származó, friss és egészséges alapanyagokat felhasználva készülnek ételeink, figyelembe véve a szezonális kínálatot, és különlegességeket.',
                 text4: 'Tarts velünk ezen a hamisítatlan \'farm-to-table\' utazáson, hogy egy közös étkezéssel együtt ünnepeljük az ízeket, amelyek generációkat kötnek össze.',
-                guests: 'vendég esténként',
+                guests: 'vendég',
                 courses: 'fogásos menü',
                 table: 'közös asztal',
                 imageAlt: 'Séf munka közben'
@@ -93,7 +93,7 @@
                     soup: 'húsleves házi tésztával',
                     second: 'hús, zöldség és borsodi töltike a levesből',
                     main: 'vasárnapi sült tál: rántott hús, petrezselymes burgonya, uborkasaláta',
-                    dessert: 'nagymama almás pitéje vaníliakrémmel'
+                    dessert: 'nagymama almás pitéje vaníliasodóval'
                 },
                 note: 'A menü tartalmaz egy welcome pálinkát, 1 pohár bort és 1 liter ásványvizet.'
             },
@@ -175,7 +175,7 @@
                 text2: 'My journey began as a child, learning the secrets of flavors and the joy of feeding others while cooking alongside my grandmother. The love of cooking eventually led me to spend years at local farmers\' markets as a chef, where I mastered the art of building menus around the very best of each season\'s harvest.',
                 text3: 'Today, my work is a tribute to those roots, focusing on traditional Hungarian meals that I love to present with a stylish, contemporary flair. I believe that food is most meaningful when you know exactly where it comes from, which is why I still source my ingredients directly from the growers I\'ve partnered with.',
                 text4: 'I offer a relaxed, communal atmosphere where the table is a place for connection and storytelling. Every detail, from the ambient candlelight to the modern plating, is designed to make you feel like an honored friend. I invite you to join me and experience a true farm-to-table journey. I look forward to welcoming you and your friends sharing a meal that bridges generations.',
-                guests: 'guests per evening',
+                guests: 'guests',
                 courses: 'course menu',
                 table: 'shared table',
                 imageAlt: 'Chef at work'
