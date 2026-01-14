@@ -95,7 +95,7 @@
                     main: 'vasárnapi sült tál: rántott hús, petrezselymes burgonya, uborkasaláta',
                     dessert: 'nagymama almás pitéje vaníliakrémmel'
                 },
-                note: 'A menü tartalmaz egy welcome pálinkát, 2 pohár bort (2x1 dl) és 1 liter ásványvizet.'
+                note: 'A menü tartalmaz egy welcome pálinkát, 1 pohár bort és 1 liter ásványvizet.'
             },
             gallery: {
                 subtitle: 'Pillanatok',
@@ -204,7 +204,7 @@
                     title: 'Hungarian Classics I.',
                     price: 'EUR 50/person',
                     starter: 'crackling spread, smoked pork tenderloin, liver pâté, smoked sausage, toast',
-                    soup: 'beef goulash with tender meat, sourdough bread',
+                    soup: 'slow cooked beef goulash, sourdough bread',
                     main: 'creamy chicken paprikash with homemade dumplings and pickled cucumber',
                     dessert: 'poppy seed bread pudding with vanilla custard'
                 },
@@ -241,7 +241,7 @@
                     main: 'Sunday roast platter: golden-brown breaded chicken and pork cutlet, parsley potato, Hungarian cucumber salad',
                     dessert: 'granny\'s apple pie, vanilla custard'
                 },
-                note: 'The menu includes a welcome drink (Palinka), 2 glasses of wine (2x1 dl), and a bottle of water (1l).'
+                note: 'The menu includes a welcome drink (Palinka), a glass of wine, and a bottle of water (1l).'
             },
             gallery: {
                 subtitle: 'Moments',
